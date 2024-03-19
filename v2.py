@@ -3,7 +3,7 @@ from ctransformers import AutoModelForCausalLM
 
 # Load the model
 llm = AutoModelForCausalLM.from_pretrained(
-    model_path_or_repo_id="mistral-7b-instruct-v0.1.Q2_K.gguf",
+    model_path_or_repo_id="mistral-7b-instruct-v0.2.Q2_K.gguf",
     model_type="mistral",
 )
 
